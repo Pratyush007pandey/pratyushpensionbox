@@ -1,0 +1,13 @@
+.products {
+  padding: 0 10%;
+}
+.category select {
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.filter select {
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}

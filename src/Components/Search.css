@@ -1,0 +1,29 @@
+.search {
+  border: 2px solid transparent;
+  display: flex;
+  border-radius: 8px;
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+  overflow: hidden;
+}
+.search input {
+  padding: 8px;
+  border: 0px;
+  outline: none;
+  background-color: rgb(238, 238, 238);
+  width: 93%;
+}
+.search span {
+  padding: 8px;
+  height: 100%;
+  text-align: center;
+
+  display: inline-block;
+  margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  .search {
+    border: 2px solid transparent;
+    width: 90%;
+  }
+}
